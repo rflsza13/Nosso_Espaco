@@ -11,7 +11,7 @@ body, html {
 }
 img {
     width: 80%;
-    padding: 0 5px 20px 5px;
+    padding: 0 10px 20px 10px;
 }
 h1 {
     font-size: 45px;
@@ -40,7 +40,7 @@ section{
 
 @media only screen and (max-width: 425px) { 
     img {
-        width: 100%;
+        width: 80%;
     }
     .main {
         background-color: rgba(0, 0, 0, 0.6);
@@ -50,6 +50,6 @@ section{
         font-size: 20px;
     }
     #paragrafo {
-        width: 100%;
+        width: 80%;
     }
 }
