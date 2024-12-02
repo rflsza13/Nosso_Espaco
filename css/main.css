@@ -10,8 +10,7 @@ body, html {
     height: 100%;
 }
 img {
-    width: 80%;
-    padding: 0 10px 20px 10px;
+    width: 70%;
 }
 h1 {
     font-size: 45px;
@@ -26,9 +25,12 @@ p {
     font-size: 30px;
 }
 section{
-    height: 100%;
+    width: 100%;
 }
 #paragrafo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 70%;
 }
 #garden {
@@ -37,10 +39,16 @@ section{
     align-items: center;
     width: 100%;
 }
+#timer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
 
 @media only screen and (max-width: 425px) { 
     img {
-        width: 80%;
+        width: 100%;
     }
     .main {
         background-color: rgba(0, 0, 0, 0.6);
@@ -53,6 +61,6 @@ section{
         width: 90%;
     }
     section{
-        height: 90%;
+        width: 90%;
     }
 }
