@@ -50,6 +50,9 @@ section{
         font-size: 20px;
     }
     #paragrafo {
-        width: 80%;
+        width: 90%;
+    }
+    section{
+        height: 90%;
     }
 }
