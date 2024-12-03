@@ -25,7 +25,7 @@ p {
     font-size: 30px;
 }
 section{
-    width: 100%;
+    /* width: 100%; */
 }
 #paragrafo {
     display: flex;
@@ -46,21 +46,17 @@ section{
     width: 100%;
 }
 
-@media only screen and (max-width: 425px) { 
+@media (max-width: 425px) { 
     img {
-        width: 100%;
-    }
-    .main {
-        background-color: rgba(0, 0, 0, 0.6);
-        width: 100%;
+        width: 90%;
     }
     p {
         font-size: 20px;
     }
     #paragrafo {
-        width: 90%;
+        width: 85%;
     }
-    section{
-        width: 90%;
+    section {
+        width: 80%;
     }
 }
