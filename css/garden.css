@@ -15,10 +15,16 @@
 }
 
 .position_left_1 {
-  left: 50px;
+  left: 30px;
 }
 .position_right_1 {
-  right: 50px;
+  right: 30px;
+}
+.position_left_2 {
+  left: 70px;
+}
+.position_right_2 {
+  right: 70px;
 }
 
 .garden {
@@ -140,7 +146,7 @@
   background-color: #6bf0ff;
   filter: blur(10vmin);
 }
-.flower__leaf_1 {
+.flower__leaf {
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -148,39 +154,25 @@
   height: 11vmin;
   border-radius: 51% 49% 47% 53%/44% 45% 55% 69%;
   background-color: #a7ffee;
-  /* troca a cor da flor */
-  background-image: linear-gradient(to top, #b854a6, #ffa7ec);
   transform-origin: bottom center;
   opacity: 0.9;
   box-shadow: inset 0 0 2vmin rgba(255, 255, 255, 0.5);
 }
-.flower__leaf_2 {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  width: 8vmin;
-  height: 11vmin;
-  border-radius: 51% 49% 47% 53%/44% 45% 55% 69%;
-  background-color: #a7ffee;
+.flower_pink {
+    /* troca a cor da flor */
+    background-image: linear-gradient(to top, #b854a6, #ffa7ec);
+}
+.flower_blue {
   /* troca a cor da flor */
   background-image: linear-gradient(to top, #5454b8, #aaa7ff);
-  transform-origin: bottom center;
-  opacity: 0.9;
-  box-shadow: inset 0 0 2vmin rgba(255, 255, 255, 0.5);
 }
-.flower__leaf_3 {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  width: 8vmin;
-  height: 11vmin;
-  border-radius: 51% 49% 47% 53%/44% 45% 55% 69%;
-  background-color: #a7ffee;
+.flower_red {
   /* troca a cor da flor */
   background-image: linear-gradient(to top, #b85454, #ffa7a7);
-  transform-origin: bottom center;
-  opacity: 0.9;
-  box-shadow: inset 0 0 2vmin rgba(255, 255, 255, 0.5);
+}
+.flower_white {
+  /* troca a cor da flor */
+  background-image: linear-gradient(to top, #a5a5a5, #ffffff);
 }
 .flower__leaf--1 {
   transform: translate(-10%, 1%) rotateY(40deg) rotateX(-50deg);
@@ -1050,9 +1042,15 @@
     height: 300px;
   }
   .position_left_1 {
-    left: 30px;
+    left: 20px;
   }
   .position_right_1 {
-    right: 30px;
+    right: 20px;
+  }
+  .position_left_2 {
+    left: 50px;
+  }
+  .position_right_2 {
+    right: 50px;
   }
 }
