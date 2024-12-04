@@ -20,7 +20,7 @@
     box-shadow: 5px 5px #d9534f;
   }
 
-  @media (max-width: 425px) { 
+  @media (max-width: 768px) { 
     .counter {
       font-size: 1.2em;
     }
