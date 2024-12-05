@@ -12,6 +12,10 @@ body, html {
 img {
     width: 70%;
 }
+iframe {
+    width: 1000px;
+    height: 600px;
+}
 h1 {
     font-size: 45px;
     text-shadow: 5px 2px #d9534f;
