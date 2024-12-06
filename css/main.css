@@ -63,4 +63,15 @@ section{
     section {
         width: 80%;
     }
+    iframe {
+        width: 600px;
+        height: 350px;
+    }
+}
+
+@media (max-width: 768px) { 
+    iframe {
+        width: 350px;
+        height: 200px;
+    }
 }
