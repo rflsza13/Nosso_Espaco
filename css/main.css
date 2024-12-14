@@ -9,9 +9,6 @@ body, html {
     align-items: center;
     height: 100%;
 }
-img {
-    width: 70%;
-}
 iframe {
     width: 1000px;
     height: 600px;
@@ -41,6 +38,12 @@ p {
     width: 100%;
 }
 #timer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+#caroussel {
     display: flex;
     flex-direction: column;
     align-items: center;
