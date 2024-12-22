@@ -112,22 +112,34 @@ p {
 }
 
 .perfil-1:hover {
-    animation: slider1 15s linear forwards;
+    animation: rotate1 1.3s linear forwards;
 }
 
 .perfil-2:hover {
     background-size: cover;
-    animation: slider2 15s linear forwards;
+    animation: rotate2 1.3s linear forwards;
 }
 
-@keyframes slider1 {
-    25% { background-image: url(../img/julia/julia\ 1.jpeg);}
-    100% { background-image: url(../img/julia/julia\ 1.jpeg);}
+@keyframes rotate1 {
+    0% { 
+        transform: rotateY(0deg);
+        background-image: url("../img/julia/julia\ 2.jpeg");  
+    }
+    100% { 
+        transform: rotateY(180deg);
+        background-image: url("../img/julia/julia\ 1.jpeg");  
+    }
 }
 
-@keyframes slider2 {
-    25% { background-image: url(../img/rafael/rafael\ 1.jpeg);}
-    100% { background-image: url(../img/rafael/rafael\ 1.jpeg);}
+@keyframes rotate2 {
+    0% { 
+        transform: rotateY(0deg);
+        background-image: url("../img/rafael/rafael\ 2.jpeg"); 
+    }
+    100% { 
+        transform: rotateY(180deg);
+        background-image: url("../img/rafael/rafael\ 1.jpeg");
+    }
 }
 
 @media (max-width: 768px) { 
