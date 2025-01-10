@@ -15,10 +15,10 @@
 }
 
 .position_left_1 {
-  left: 30px;
+  left: 35px;
 }
 .position_right_1 {
-  right: 30px;
+  right: 35px;
 }
 .position_left_2 {
   left: 70px;
@@ -162,17 +162,26 @@
     /* troca a cor da flor */
     background-image: linear-gradient(to top, #b854a6, #ffa7ec);
 }
-.flower_blue {
+.flower_orange {
   /* troca a cor da flor */
-  background-image: linear-gradient(to top, #5454b8, #aaa7ff);
+  background-image: linear-gradient(to top, #c58127, #c59c7b);
+}
+.flower_purple {
+  /* troca a cor da flor */
+  background-image: linear-gradient(to top, #8354b8, #c1a7ff);
 }
 .flower_red {
   /* troca a cor da flor */
-  background-image: linear-gradient(to top, #b85454, #ffa7a7);
+  background-image: linear-gradient(to top, #b93c3c, #ffa7a7);
 }
 .flower_white {
   /* troca a cor da flor */
   background-image: linear-gradient(to top, #a5a5a5, #ffffff);
+}
+.flower_blue {
+  /* troca a cor da flor */
+  background-image: linear-gradient(to top, #2a879e, #5e99a8);
+  /* background-image: linear-gradient(to top, #5454b8, #aaa7ff); */
 }
 .flower__leaf--1 {
   transform: translate(-10%, 1%) rotateY(40deg) rotateX(-50deg);
