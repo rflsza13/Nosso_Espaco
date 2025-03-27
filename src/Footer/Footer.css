@@ -1,0 +1,25 @@
+.Footer {
+    padding: 20px;
+    background-color: #1C1C1C;
+    opacity: 90%;
+    color: #D6EFFF;
+    border: 5px inset #8ed6ff;
+}
+
+.link {
+    color: #D6EFFF;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #D6EFFF;
+    text-decoration: underline;
+}
+
+h5 {
+    font-size: medium;
+}
+
+h6 {
+    font-size: x-small;
+}

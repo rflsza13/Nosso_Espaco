@@ -1,0 +1,30 @@
+.Time {
+    padding: 20px;
+    background-color: #D6EFFF;
+    opacity: 90%;
+    color: #1C1C1C;
+    border: 5px inset #8ed6ff;
+}
+
+.counter {
+    margin: 10px 0px;
+    font-weight: bold;
+  }
+
+.timer {
+    background-color: #D6EFFF;
+    color: #1C1C1C;
+    width: 90%;
+    max-width: 300px;
+    height: 80px;
+    border: 3px double #1C1C1C;
+    border-radius: 5px;
+    box-shadow: -5px 5px 5px #1C1C1C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-time {
+    margin: 20px 0;
+}
