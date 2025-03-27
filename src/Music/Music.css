@@ -1,5 +1,5 @@
 .Music {
-    padding: 20px;
+    /* padding: 20px; */
     background-color: #D6EFFF;
     opacity: 90%;
     color: #1C1C1C;
@@ -16,19 +16,5 @@ iframe {
     iframe {
         width: 350px;
         height: 200px;
-    }
-}
-
-@media (max-width:376px) {
-    iframe {
-        width: 300px;
-        height: 200px;
-    }
-}
-
-@media (max-width:321px) {
-    iframe {
-        width: 250px;
-        height: 150px;
     }
 }
